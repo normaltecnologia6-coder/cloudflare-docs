@@ -3,6 +3,10 @@ link: "/browser-rendering/changelog/"
 productName: Browser Rendering
 productLink: "/browser-rendering/"
 entries:
+  - publish_date: "2026-04-08"
+    title: "CDP endpoints now accessible from any environment (Beta)"
+    description: |-
+      * Browser Rendering now supports the [Chrome DevTools Protocol (CDP)](/browser-rendering/cdp/) via the `/devtools` endpoints. Create persistent browser sessions, manage tabs, and control browsers using CDP commands from any environment that supports WebSocket connections, including local machines, CI/CD pipelines, and external servers. Connect with [Puppeteer](/browser-rendering/cdp/puppeteer/), [MCP clients](/browser-rendering/cdp/mcp-clients/), or any CDP-compatible client.
   - publish_date: "2026-03-23"
     title: "@cloudflare/playwright v1.2.0 released"
     description: |-
